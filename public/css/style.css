@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0;
+	border:0;}
+body{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.day{
+	color:#62536a;}
+.latest{
+	color:#000;}
+.top-left{
+	font-size:16px;}
+.top-left a{
+	color:#569abf;
+	}
+.top-left{
+	padding:10px 0px;}
+.top{
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;}
+.name{
+	font-size:50px;
+	font-weight:bolder;
+	padding-top:20px;}
+.navbar-brand{
+	display:none;}
+.nav a{
+	color:#fff;
+	font-weight:bold;}
+.menu ul li:hover > a {
+	color:#242424;}
+.menu ul li:hover .active{
+	background:#242424;
+	color:#fff;
+	}
+.search{
+    position: relative;
+}
+.search input{
+	border:1px solid #249bc6;
+	background:#242424;
+	color:#f1f1f1;
+	margin-top:3px;}
+.search-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ffffff;
+}
+.main-menu{
+	background:#242424;
+	padding:4px 0px;
+	height:55px;
+	border-top:5px solid #249bc6;
+	margin-top:30px;
+	margin-bottom:30px;
+	}
+.icon-bar{
+	background:#fff;
+	margin-top:-5px;}
+h3{
+	color:#fff;}
+.wrapper{
+	width:95%;}
+.wrapper-2{
+	width:95%;
+	border:1px solid #ccc;}
+.bottom{
+	background:#3e3e3e;
+	padding:50px;
+	margin-top:50px;
+	color:#fff;}
+.copyright{
+	background:#333333;
+	color:#7b7b7b;
+	padding:10px;}
+.copyright a{
+	color:#fff;}
+.goto{
+	color:rgb(44, 160, 201);
+	font-size:38px;
+	position:fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.bottom ul li:hover > a {
+	color:#242424;}
+.caption{
+	color:#fff;}
+.glyphicon-chevron-right{
+	font-size:11px;
+	font-weight:100;
+	color:#333;}
+h4{
+	padding-left:10px;}
+.fashion img{
+	margin-left:-15px;}
+.image-gallery img{
+	width:100%;}
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -10px;
+    flex-direction: row;
+}
+.flex div {
+    padding: 0 5px;
+}
+.top-social {
+    padding-top: 7px;
+}
+.social-icon {
+    background: #0d6aad;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media(max-width:420px){
+
+	body{
+		width:100%;
+		overflow:hidden;
+		overflow-y:scroll;}
+
+	.brand{
+		display:none;}
+	.main-menu{
+		margin-top:0px;
+		height:auto;
+		padding-bottom:15px;}
+	.search{
+		margin-top:-20px;}
+	.navbar-brand{
+	display:block;
+	font-size:36px;}
+	.wrapper{
+		width:100%;}
+	.wrapper img{
+		margin-bottom:15px;}
+	.goto{
+		margin-left:0px;
+		margin-top:20px;}
+	.name{
+		font-size:30px;}
+	.caption{
+		margin-top:-50px;}
+	h4{
+		padding-left:0px;}
+	.fashion img{
+		margin-left:0px;}
+	.glyphicon-chevron-right{
+		margin-bottom:15px;}
+	.image-gallery img{
+		width:100%;
+		margin-right:0px;
+		margin-bottom:15px;}
+}
+
+.relative {
+    position: relative;
+}
+.relative .caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+.also-like h3, .view-count h3, .share-this h3 {
+    color: #0f0f0f;
+}
+a{
+    text-decoration: none !important;
+}
+#search-output {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 2;
+    border: 3px solid #249bc6;
+
+}
+.search-result {
+    list-style: none;
+}
+.search-result li a{
+    padding: 0 0 5px;
+    display: block;
+    color: #333;
+}
+.search-result li:last-child a{
+    padding-bottom: 0;
+}
+.tweet-btn {
+    position: relative;
+    top: 5px;
+}
+.advertisement-sidebar {
+    margin: -15px;
+}
